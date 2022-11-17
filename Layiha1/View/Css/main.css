@@ -1,0 +1,35 @@
+a[target]{
+	background-color:greenyellow;
+	border: 1px dotted red;
+	padding: 5px;
+} 
+
+a[target="_blank"]{
+	background-color: bisque;
+	border: 1px dashed green;
+	padding: 10px;
+}
+a[title~="irali"]{
+	color: red;
+}
+
+a[class|="link"]{
+	font-weight: bold;
+}
+
+div[alt^="divo"]{
+	width: 50px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	font-weight: bold;
+	padding: 5px;
+	margin: 10px;
+}
+
+table, th, td{
+	border : 1px solid red;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
